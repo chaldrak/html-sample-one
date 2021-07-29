@@ -1,0 +1,118 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+  font-family: monospace, sans-serif;
+}
+header{
+  background-color: white;
+  color: black;to
+}
+header nav{
+  display: flex;
+  justify-content: space-between;
+  /* margin: 10px 100px; */
+  padding: 0 100px;
+}
+header nav .nav-menu{
+  display: flex;
+}
+header nav .nav-menu li{
+  list-style: none;
+  padding-right: 20px;
+}
+header nav .nav-menu .nav-menu-link{
+  text-decoration: none;
+  color: inherit;
+}
+header nav .logo{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+.navbar{
+  margin: 10px 100px;
+}
+.navbar img{
+  width: 100%;
+  border: 2px solid white;
+  height: 300px;
+  margin-bottom: 10px;
+}
+.navbar .cards{
+  display: flex;
+}
+.navbar .cards .card-red{
+  border: 1px solid red;
+  background-color: red;
+  border-radius: 5px;
+  margin-right: 20px;
+  padding: 10px;
+}
+.navbar .cards .card-green{
+  border: 1px solid green;
+  background-color: green;
+  border-radius: 5px;
+  margin-right: 20px;
+  padding: 10px;
+}
+.navbar .cards .card-yellow{
+  border: 1px solid orange;
+  background-color: orange;
+  border-radius: 5px;
+  margin-right: 20px;
+  padding: 10px;
+}
+.navbar .cards .card-blue{
+  border: 1px solid blue;
+  background-color: blue;
+  border-radius: 5px;
+  padding: 10px;
+}
+.navbar .cards .card-title{
+  color:white;
+  font-weight: bold;
+}
+.infos{
+  background-color: white;
+  padding: 10px 0;
+}
+.infos .infos-sup, .infos-inf{
+  display: flex;
+  margin: 10px 100px;
+}
+.infos .infos-sup{
+    border-bottom: 1px dashed black;
+}
+.infos .infos-sup .welcome{
+  padding-right: 20px;
+  width: 80%;
+}
+.infos .title, span{
+  font-weight: bold;
+  font-style: italic;
+}
+.infos .infos-inf .starter, .premium, .advanced{
+  padding-right: 20px
+}
+p, span{
+  font-size: 0.8rem;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 100px;
+  font-size: 0.7rem;
+}
+footer .footer-menu{
+  display: flex;
+  padding: 0;
+}
+footer .footer-menu li{
+  list-style: none;
+  padding-right: 10px;
+}
+footer .footer-menu .footer-menu-link{
+  text-decoration: none;
+  color: black;
+}
